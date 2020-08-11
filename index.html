@@ -17,9 +17,11 @@ var myaudio = document.getElementById("myaudio").autoplay = true;
 </head>
 <body>
     <main>
-<audio id="myaudio" loop>
-      		<source src="flute.mp3" type="audio/mp3" >
+<div style="display:none;">
+<audio id="myaudio" controls autoplay="yes" mobile="yes" loop>
+      		<source src="flute.mp3" type="audio/mp3" ></source>
 	</audio>
+</div>
         <section class="background" id="scene">
             <article class="layer" data-depth="1">
                 <img src="images/text.png" alt="Happy Janmashtami" srcset="">
