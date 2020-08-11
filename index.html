@@ -11,11 +11,14 @@
   		var context = new AudioContext();
 	}
     </script>
+<script>
+var myaudio = document.getElementById("myaudio").autoplay = true;
+</script>
 </head>
 <body>
     <main>
-	<audio autoplay>
-      		<source src="flute.mp3">
+<audio id="myaudio" loop>
+      		<source src="flute.mp3" type="audio/mp3" >
 	</audio>
         <section class="background" id="scene">
             <article class="layer" data-depth="1">
